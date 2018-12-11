@@ -129,7 +129,7 @@ STATIC_URL = '/static/'
 VIDEO_ENCODING_FORMATS = {
     'FFmpeg': [
         {
-            'name': 'banana',
+            'name': 'test',
             'extension': 'webm',
             'params': [
                 '-b:v', '1000k', '-maxrate', '1000k', '-bufsize', '2000k',
